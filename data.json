@@ -1,0 +1,243 @@
+{
+    "Link": [
+        {
+            "ItemID": "1",
+            "ItemPic": "./img/Link/link1.png",
+            "ItemAlt": "蘋果新聞網",
+            "ItemLink":"https://tw.appledaily.com/mypage/realtime/"
+        },
+        {
+            "ItemID": "2",
+            "ItemPic": "./img/Link/link2.png",
+            "ItemAlt": "你的優惠",
+            "ItemLink":"https://tw.ticket.appledaily.com/memberevent/index.html"
+        }
+    ],
+    "Channel": [
+        {
+            "ItemID": "1",
+            "ItemPic": "./img/Link/Channel1.jpg",
+            "ItemAlt": "蘋果新聞網",
+            "ItemLink":"https://tw.appledaily.com/supplement/20191107/MKEA67J5OYZKWJXE7KFHHQQYBE/"
+        }
+    ],
+    "Center": [
+        {
+            "ItemType":"main",
+            "ItemID": "1",
+            "ItemCover": "./img/Cover/cover1.jpg",
+            "ItemVideo": "https://www.youtube.com/embed/HhesaQXLuRY",
+            "ItemDate": "2020/12/12(六)",
+            "ItemTopic": "身體發生哪些狀況容易患疫？",
+            "ItemContent": "3年金馬獎指定伴手禮！【起士公爵】採用頂級澳洲乳酪及日式輕浴蒸烤技術，口感細緻綿滑、濃郁不膩。",
+            "FunItem":[
+                {
+                    "ItemTopic": "3年金馬獎指定伴手禮！【起士公爵】採用頂級澳洲乳酪及日式輕浴蒸烤技術，口感細緻綿滑、濃郁不膩。",
+                    "ItemHightlight": "【影片】",
+                    "ItemLink":"https://shop.cheeseduke.com.tw/"
+                },
+                {
+                    "ItemTopic": "【起士公爵】關於起士公爵，成立於2010年，我們追求「簡單真實」",
+                    "ItemHightlight": "【AppleFree!特企】",
+                    "ItemLink":"https://www.cheeseduke.com.tw/%e9%97%9c%e6%96%bc%e8%b5%b7%e5%a3%ab%e5%85%ac%e7%88%b5/"
+                },
+                {
+                    "ItemTopic": "彌月媽媽專訪",
+                    "ItemHightlight": "【彌月媽媽會員優惠】",
+                    "ItemLink":"https://shop.cheeseduke.com.tw/pages/badycakes-foretaste"
+                }
+            ]
+        },
+        {
+            "ItemType":"mobile_video_ad",
+            "ItemID": "vide_ad_1",
+            "ItemPic": "./img/kkk.png",
+            "ItemVideo":"https://www.youtube.com/embed/zmr2I8caF0c",
+            "ItemVideo_Id":"zmr2I8caF0c",
+            "ItemLink":"https://www.subaru.asia/tw/zh/home/"
+        },
+        {
+            "ItemType":"ad",
+            "ItemID": "2",
+            "ItemLogoPic": "./img/Center/ikari_logo.svg",
+            "ItemLogoAlt": "ikari",
+
+            "ItemPic": "./img/Center/ikari_menu.jpg",
+            "ItemAlt": "ikari_menu",
+            "ItemTopic": "防疫補給，外帶77折",
+            "ItemHightlight": "【會員優惠前往索取】",
+            "ItemLink":"https://www.ikari.com.tw/news/activity/article/?id=98"
+        },
+        {
+            "ItemType":"mobile_ad",
+            "ItemID": "ad_1",
+            "ItemPic": "./img/Right/sony_ad.jpg",
+            "ItemLink":"https://www.sony.com.tw/zh/electronics/televisions/z9g-series"
+        },
+        {
+            "ItemType":"img",
+            "ItemID": "3",
+            "ItemPic": "./img/Center/voucher.jpg",
+            "ItemAlt": "振興券專屬優惠",
+            "ItemLink":"https://tw.ticket.appledaily.com/goodfriends/events/2020_stimulus_voucher/index.html",
+            "ItemTopic":"回填全台消費店家及發票號碼，萬元商品讓你帶！回！家！"
+        },
+        {
+            "ItemType":"lecture",
+            "ItemID": "4",
+            "TopLink":"https://tw.feature.appledaily.com/forum/?utm_source=twad_web&utm_medium=internal&utm_campaign=twad_regular_entry&utm_content=top_menu",
+            "Item":[
+                {
+                    "ItemPic": "./img/Center/wine1.jpg",
+                    "ItemAlt": "品酒｜用葡萄酒遊走酩酊大醉的世界史【三倍券適用】",
+                    "ItemLink": "https://www.accupass.com/event/2007060913361859504197",
+                    "ItemContent": "品酒｜用葡萄酒遊走酩酊大醉的世界史【三倍券適用】"
+                },
+                {
+                    "ItemPic": "./img/Center/wine2.jpg",
+                    "ItemAlt": "品酒｜《微醺投資夜》葡萄酒品味煉金術【三倍券適用】",
+                    "ItemLink": "https://www.accupass.com/event/2006240625171773994275",
+                    "ItemContent": "品酒｜《微醺投資夜》葡萄酒品味煉金術【三倍券適用】"
+                }
+            ]
+        },
+        {
+            "ItemType":"mobile_ad",
+            "ItemID": "ad_2",
+            "ItemPic": "./img/Right/ad.png",
+            "ItemLink":"https://www.google.com/"
+        },
+        {
+            "ItemType":"trials",
+            "ItemID": "5",
+            "TopLink":"https://www.google.com",
+            "Item":[
+                {
+                    "ItemPic": "./img/Center/netflix.jpg",
+                    "ItemAlt": "Netflix_Logo",
+                    "ItemLink": "https://help.netflix.com/zh-tw/",
+                    "ItemContent": "Netflix 試用活動 2020"
+                },
+                {
+                    "ItemPic": "./img/Center/foodpanda.jpg",
+                    "ItemAlt": "Foodpanda_Logo",
+                    "ItemLink": "https://www.foodpanda.com.tw/?gclid=EAIaIQobChMIjbjtmbGr6QIVzteWCh2r6AVuEAAYASAAEgKd3fD_BwE",
+                    "ItemContent": "Foodpanda 試用活動 2020"
+                }
+            ]
+
+        },
+        {
+            "ItemType":"unboxing",
+            "ItemID": "6",
+            "TopLink":"https://www.youtube.com",
+            "Item":[
+                {
+                    "ItemCover": "./img/Cover/cover2.png",
+                    "ItemVideo": "https://www.youtube.com/embed/0ME7x7_blf8",
+                    "ItemContent": "【oh! Box】禮盒預購每滿300元贈一組優惠券(數量有限，送完為止)"
+                },
+                {
+                    "ItemCover": "./img/Cover/cover1.jpg",
+                    "ItemVideo": "https://www.youtube.com/embed/HhesaQXLuRY",
+                    "ItemContent": "【oh! Box】禮盒預購每滿300元贈一組優惠券"
+                },
+                {
+                    "ItemCover": "./img/Cover/cover2.png",
+                    "ItemVideo": "https://www.youtube.com/embed/TmO44dTKxrk",
+                    "ItemContent": "【oh! Box】禮盒預購每滿300元贈"
+                }
+            ]
+        },
+        {
+            "ItemType":"mobile_video_ad",
+            "ItemID": "vide_ad_2",
+            "ItemPic": "./img/Right/ad.png",
+            "ItemVideo":"https://www.youtube.com/embed/X9f4HqL80lM",
+            "ItemVideo_Id":"X9f4HqL80lM",
+            "ItemLink":"https://translate.google.com/"
+        },
+        {
+            "ItemType":"topic",
+            "ItemID": "7",
+            "Item":[
+                {
+                    "ItemPic": "./img/Center/topic1.jpg",
+                    "ItemAlt": "topic1",
+                    "ItemLink": "https://tw.appledaily.com/politics/20200511/N7WJIIOM4YFS3OXDOIZRP3YF4U/",
+                    "ItemTopic": "母親節 專案",
+                    "ItemSubTopic": "身體發生哪些狀況容易患疫？防疫茶可以怎麼搭配？",
+                    "ItemContent": "現任台灣中原大學"
+                },  
+                {
+                    "ItemPic": "./img/Center/topic2.jpg",
+                    "ItemAlt": "topic2",
+                    "ItemLink": "https://tw.appledaily.com/gadget/20200511/IVXJNCXWWKLSMGIYBL3PIKQHFM/",
+                    "ItemTopic": "端午節 專案",
+                    "ItemSubTopic": "身體發生哪些狀況容易患疫？",
+                    "ItemContent": "3年金馬獎指定伴手禮！【起士公爵】採用頂級澳洲乳酪及日式輕浴蒸烤技術，口感細緻綿滑、濃郁不膩。"
+                }
+            ]
+        },
+        {
+            "ItemType":"mobile_ad",
+            "ItemID": "ad_3",
+            "ItemPic": "./img/Right/card_ad.jpg",
+            "ItemLink":"http://sokoniadvertiser.com/joy-makes-dreams-true-the-bmw-x3/"
+        },
+        {
+            "ItemType":"main",
+            "ItemID": "1",
+            "ItemCover": "",
+            "ItemVideo": "https://www.youtube.com/embed/0ME7x7_blf8",
+            "ItemDate": "2020/12/12(六)",
+            "ItemTopic": "身體發生哪些狀況容易患疫？",
+            "ItemContent": "3年金馬獎指定伴手禮！【起士公爵】採用頂級澳洲乳酪及日式輕浴蒸烤技術，口感細緻綿滑、濃郁不膩。",
+            "FunItem":[
+                {
+                    "ItemTopic": "3年金馬獎指定伴手禮！【起士公爵】採用頂級澳洲乳酪及日式輕浴蒸烤技術，口感細緻綿滑、濃郁不膩。",
+                    "ItemHightlight": "【影片】",
+                    "ItemLink":"https://shop.cheeseduke.com.tw/"
+                },
+                {
+                    "ItemTopic": "【起士公爵】關於起士公爵，成立於2010年，我們追求「簡單真實」",
+                    "ItemHightlight": "【AppleFree!特企】",
+                    "ItemLink":"https://www.cheeseduke.com.tw/%e9%97%9c%e6%96%bc%e8%b5%b7%e5%a3%ab%e5%85%ac%e7%88%b5/"
+                },
+                {
+                    "ItemTopic": "彌月媽媽專訪",
+                    "ItemHightlight": "【彌月媽媽會員優惠】",
+                    "ItemLink":"https://shop.cheeseduke.com.tw/pages/badycakes-foretaste"
+                }
+            ]
+        }
+
+
+
+
+    ],
+    "Right":  [
+        {
+            "ItemType":"video_text",
+            "ItemID": "1",
+            "ItemTopic": "10元升級為壹會員",
+            "ItemContent": "《蘋果新聞網》免費訂閱活動已屆滿，即日起，您可以用10元優惠價，繼續無限暢覽《蘋果新聞網》到9月1日：自7月4日起，若您未繳付10元優惠價，將無法繼續瀏覽《蘋果新聞網》，也無法參加各項升級壹會員獨享的尊榮權益；要成為「升級壹會員」很簡單，只要依照以下步驟即可完成",
+            "ItemVideo": "https://www.youtube.com/embed/HhesaQXLuRY",
+            "ItemVideoIntro":"升級為壹會員教學"
+        },
+        {
+            "ItemType":"img",
+            "ItemID": "2",
+            "ItemPic": "./img/Right/sony_ad.jpg",
+            "ItemAlt": "sony_ad",
+            "ItemLink":"https://www.sony.com.tw/zh/electronics/televisions/z9g-series"
+        },
+        {
+            "ItemType":"img",
+            "ItemID": "3",
+            "ItemPic": "./img/Right/sony_ad_long.jpg",
+            "ItemAlt": "sony_ad_long",
+            "ItemLink":"https://www.sony.com.tw/zh/electronics/televisions/a9g-series"
+        }
+    ]
+}

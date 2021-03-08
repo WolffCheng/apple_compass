@@ -1,0 +1,147 @@
+section.videowrapper {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+    /* margin-bottom: 30px; */
+    background: #000;
+}
+
+.videowrapper iframe,.videowrapper video { 
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}        
+/** Use .sticky */
+
+.ytvideo .is-sticky,.videoTag .is-sticky{
+    z-index: 999;
+
+    position: fixed;
+    right: 3px;
+    bottom: 3px;
+    top: auto;
+    left: auto;
+    max-width: 280px;
+    max-height: 158px;
+    width: 280px;
+    height: 158px;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}        
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.close-button {
+    position: fixed;
+    box-sizing: border-box;
+    display: block;
+    right: 24px;
+    bottom: 175px;
+    top: auto;
+    left: auto;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: none;
+
+    z-index: 999;
+}
+
+.close-button:after {
+    width: 20px;
+    height: 5px;
+    transform: rotate(-45deg);
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    background-color: rgb(0, 183, 255);
+    /* transition: all 0.2s ease-out; */
+}
+.close-button:before{
+    width: 20px;
+    height: 5px;
+    transform: rotate(45deg);
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    background-color: rgb(0, 183, 255);
+}
+
+/* .close-button:after {
+    transform: rotate(45deg);
+}
+
+.close-button:hover:after {
+    transform: rotate(-45deg);
+}
+
+.close-button:hover:before {
+    transform: rotate(45deg);
+} */
+
+.gradient-overlay {
+    position: fixed;
+    right: 3px;
+    bottom: 3px;
+    top: auto;
+    left: auto;
+    max-width: 280px;
+    max-height: 158px;
+    width: 280px;
+    height: 158px;
+    opacity: .01;
+    background: #000;
+    
+    display: none;
+
+    /* display: block;  */
+    z-index: 1000;
+}
+
+i.fa.fa-arrows-alt {
+    position: fixed;
+    right: 8px;
+    bottom: 5px;
+    top: auto;
+    left: auto;
+    color: #fff;
+    z-index: 2;
+    cursor: pointer;
+    display: none;
+}

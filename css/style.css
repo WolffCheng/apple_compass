@@ -1,0 +1,940 @@
+body,
+html {
+    /* height: 100%; */
+    background-color: rgb(238, 238, 238);
+
+    min-height: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
+	position: relative;
+}
+
+
+hr{
+    height:2em;
+    height:1px;
+    margin: 0px 15px 0 15px;
+}
+
+
+div {
+    font-family: 微軟正黑體, "Microsoft JhengHei";
+}
+
+
+/* Common ------------------------------------------------------------- */
+.Blue_Button{
+    border: 0;
+    border-radius: 4px;
+    background-color:#0e90ce;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+
+    width: auto;
+    padding: 10px 10px 10px 10px;
+    margin: 9px;
+
+    cursor: pointer;
+}
+.White_Button{
+    border: 1px #0e90ce solid;
+    border-radius: 4px;
+    background-color:#ffffff;
+    color: #0e90ce;
+    text-align: center;
+    font-size: 12px;
+
+    width: auto;
+    padding: 10px 10px 10px 10px;
+    
+    margin: 9px;
+
+    cursor: pointer;
+}
+.Orange_Triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 15px 0 0;
+    border-color: #ffa600 transparent transparent transparent;
+    margin:5px 0px 0px 0px;
+}
+.Vertical_Line{
+    border-left: 1px solid rgba(141, 141, 141, 0.7);
+    height: 30px;
+    margin:0px 10px 0px 10px;
+
+
+}
+.Link_Highlight{
+    font-size: 13px;
+    color: #ffa600;
+    cursor: pointer;
+}
+
+.Top_Right{
+    position: absolute;
+    top: 23px;
+    right: 15px;
+}
+
+.Box_Title{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.Horizontal_Line{
+    background-color: #0000001f;
+    width: 85%;
+    height: 2px;
+    margin: 0 auto;
+    display: none;
+}
+
+
+/* Youtube ------------------------------------------------------------- */
+.Youtube_Container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.video_cover{
+    background-size:100% 100%; 
+    background-image:url(''); 
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    border-radius: 4px 4px 0 0;
+    cursor: pointer;
+}
+
+
+
+
+/* AD_Container ------------------------------------------------------------- */
+.AD{
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.AD >:first-child{
+    font-size: 11px;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+}
+.AD > .Youtube_Container > div{
+    position: absolute;
+    padding: 5px 10px; 
+    /* margin: 10px 10px;  */
+    bottom: 0px; 
+    left: 0px; 
+    font-size: 12px; 
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.AD >:nth-child(2){
+    font-size: 11px;
+    padding: 0px 10px 10px 10px;
+}
+.AD >:nth-child(4){
+    font-size: 11px;
+    color: rgb(179, 179, 179);
+    padding: 10px 10px 10px 10px;
+}
+
+.AD > img{
+    width: 100%;
+    height:100%;
+
+    border-radius: 0px;
+    padding: 0px 0px 0px 0px !important;
+
+    cursor: pointer;
+}
+/*  ------------------------------------------------------------- */
+
+
+.Apple_Img_Container{
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+    border-radius: 4px;
+
+}
+.Apple_Img_Container > div > img{
+    width: 100%;
+    height:100%;
+
+    border-radius: 4px;
+    padding: 0px 0px 0px 0px !important;
+
+    cursor: pointer;
+}
+
+.Apple_Img_Container > div > div{
+    position: absolute; 
+    bottom: 0px; 
+    width:100%; 
+    max-height:90px; 
+    background-color:rgba(0, 0, 0, 0.6); 
+    border-radius: 0 0 4px 4px;
+    pointer-events: none;
+}
+.Apple_Img_Container > div > div > div{
+    vertical-align: middle; 
+    height: 100px; 
+    font-size:28px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255); 
+    padding: 5px 10px;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+
+
+/* Apple_Main_Container ------------------------------------------------------------- */
+.Apple_Main_Container{
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+.Apple_Main_Container .Youtube_Container .video{
+    border-radius: 4px 4px 0 0;
+}
+.Apple_Main_Container .row{
+    margin: 10px 10px;
+}
+.Apple_Main_Container .row > div{
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+}
+.Apple_Main_Container .row>div b {
+    padding: 15px 0px;
+}
+/*  ------------------------------------------------------------- */
+
+
+/* Apple_AD_Container ------------------------------------------------------------- */
+.Apple_AD_Container{
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+.Apple_AD_Container > .row{
+    margin: 0px 10px 0px 10px;
+}
+.Apple_AD_Container .row img{
+    height:30px;
+    cursor: pointer;
+}
+.Apple_AD_Container .row:nth-child(2){
+    padding: 10px 0px 0px 0px;
+}
+.Apple_AD_Container .row:nth-child(2) img{
+    border-radius: 0;
+    max-width: 208px;
+    width: 50%;
+    height: 100%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.Apple_AD_Container .row:nth-child(2)>div{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    width:45%;
+}
+
+
+
+/*  ------------------------------------------------------------- */
+
+/* Apple_Activity_Container ------------------------------------------------------------- */
+.Apple_Activity_Container{
+    position: relative;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+.Apple_Activity_Container > .row{
+    margin: 0px 10px 0px 10px;
+}
+/* the first row */
+.Apple_Activity_Container :nth-child(2)>div>img{
+    height:30px;
+}
+/* the seconnd row */
+.Apple_Activity_Container :nth-child(3){
+    padding: 15px 0px 0px 0px;
+}
+.Apple_Activity_Container :nth-child(3) > div{
+    width:50%;
+}
+.Apple_Activity_Container :nth-child(3) img{
+    border-radius: 0;
+    width: 100%;
+    padding-bottom: 8px;
+}
+.Apple_Activity_Container :nth-child(3) div:nth-child(1){
+    padding:0 5px 0 0;
+}
+.Apple_Activity_Container :nth-child(3) div:nth-child(2){
+    padding: 0 0 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*  ------------------------------------------------------------- */
+
+
+/* Apple_Unboxing_Container ------------------------------------------------------------- */
+.Apple_Unboxing_Container{
+    position: relative;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+.Apple_Unboxing_Container > .row{
+    margin: 0px 5px;
+}
+
+
+.Apple_Unboxing_Container .row img{
+    width:100%;
+    height:100%;
+}
+.Apple_Unboxing_Container .row:nth-child(2){
+    padding: 15px 0px 0px 0px;
+}
+.Apple_Unboxing_Container > .row:nth-child(2) div{
+    padding: 8px 8px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+}
+.Apple_Unboxing_Container .row:nth-child(3) div{
+    padding: 10px 10px;
+    width:33.33%;
+}
+
+.Mini_Youtube_Container {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    max-width: 200px;
+    max-height: 150px;
+    border-radius: 4px;
+}
+.Mini_Youtube_Container .video{
+    border-radius: 0px;
+}
+/*  ------------------------------------------------------------- */
+
+
+/* Apple_Topic_Container ------------------------------------------------------------- */
+.Apple_Topic_Container{
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+.Apple_Topic_Container > .row{
+    margin: 0px 10px 0px 10px;
+    /* padding: 20px 10px 0px 10px; */
+}
+.Apple_Topic_Container >.row >div>img{
+    width:100%;
+    height:100%;
+}
+.Apple_Topic_Container .topic{
+    padding: 10px 0px 0px 0px;
+}
+.Apple_Topic_Container .topic img{
+    border-radius: 0px;
+    /* width:200px; */
+
+    width:30%;
+    height:30%;
+    margin-right: 5px;
+
+    min-width: 150px;
+    min-height: 100px; 
+}
+.Apple_Topic_Container .topic >div{
+    width:65%;
+    margin-left: 5px;
+}
+/* 大標 > font-weight: bold; padding:8px 8px; line-height: 24px;
+分類 > font-size: 11px;
+標題 > font-weight: bold; padding: 8px 0; line-height: 24px;
+內文 > padding-bottom: 5px; 
+⊕
+*/
+
+/*  ------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+.Nav_Bar {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 99;
+
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3);
+    background: rgba(14, 144, 206, 1);
+}
+
+.Nav_Bar>img {
+    width: 170px;
+    height: 40px;
+    padding-top:5px;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.Announce_Bar {
+    width: 100%;
+
+    padding-top: 70px;
+    padding-bottom: 20px;
+    background-color: #fbdb03;
+    /* background: linear-gradient(rgba(109, 109, 109, 0.6) 10%, rgb(255, 217, 0) 70%, rgb(255, 217, 0)); */
+}
+
+.Announce_Bar div{
+    text-align: center;
+}
+
+#Login_Text{
+    float: right;
+    padding: 14px 60px 0 0;
+    color: white;
+}
+#Login_Text > div{
+    cursor: pointer;
+}
+
+#Login_Icon{
+    float: right;
+    margin: 5px 100px;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    background-color: #5d6e84;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px white solid;
+}
+#Login_Icon > div{
+    top: 100%;
+    left: 50%;
+    margin: 6px;
+    font-size: 16px;
+}
+
+
+
+
+/* ------------------------------------------------------------- */
+
+.container {
+    padding-top: 15px;
+    max-width: 1140px; 
+}
+
+#Left_Panel_Container {
+    width: 18%;
+}
+#Center_Panel_Container {
+    width: 58%;
+}
+#Right_Panel_Container {
+    width: 24%;
+}
+
+
+/* Left_Section ------------------------------------------------------------- */
+.Left_Section{
+    margin: 10px 10px 5px 10px;
+    background-color: white;
+    border-radius: 4px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.Left_Section > :nth-child(1){
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 0 10px 15px;
+}
+
+.Link{
+    margin: 0 auto;
+    padding: 5px 10px 0px 10px;
+    width:100%;
+}
+
+.Link > img{
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    max-width: 165px;
+    cursor: pointer;
+}
+
+.Left_Footer{
+    text-align:center; 
+    color:#6b6b6b;
+    font-size: 14px;
+    line-height: 25px;
+}
+.Left_Footer > div{
+    padding: 0px 20px 0 20px;
+}
+.Left_Footer span{
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------- */
+
+
+/* footer ------------------------------------------------------------- */
+footer{
+    position: relative;
+    margin-top: 30px;
+    padding-top: 50px;
+    background-color: black;
+    width: 100%;
+    height:350px;
+}
+
+footer :nth-child(1) {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+footer :nth-child(1) img{
+    width: auto; 
+    height: 1.5em; 
+    margin-right: 0.5em; 
+    vertical-align: middle; 
+    margin-bottom: 3px;
+}
+footer :nth-child(1) span{
+    line-height: 24px; 
+    color: #ffffff;
+}
+
+footer .footer_link{
+    margin: 0 auto; 
+    width:350px;
+}
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+.footer_link .row div{
+    width: 30.33%;
+    margin: 0px auto;
+
+    font-size: 14px;
+    text-align: center;
+    color: white;
+
+    cursor: pointer;
+}
+footer :nth-child(3){
+    max-width:150px;
+    width:100%;
+    height:50px;
+    margin: -25px auto 50px;
+}
+
+footer div img{
+    width:100%;
+    height:100%;
+    cursor: pointer;
+}
+
+
+/* parallax */
+.parallax_container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    
+    margin: 0 auto;
+    max-width: 640px;
+    cursor: pointer;
+}
+
+.parallax_wrap {
+    clip: rect(0, auto, auto, 0);
+    -webkit-clip-path: inset(0px 0px 0px 0px round 4px 4px 4px 4px);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.parallax_bg {
+    /* position: fixed;
+    display: block;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+
+    transform: translateZ(0);
+    will-change: transform; */
+
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    transform: translateZ(0);
+    will-change: transform;
+
+    margin-left: -462px;
+    max-width: 800px;
+}
+
+
+/* ------------------------------------------------------------- */
+@media screen and (min-width: 420px){
+    .Video_AD_Container{
+        display: none;
+    }
+}
+@media screen and (max-width: 420px){
+    .parallax_bg {
+        left: 0%!important;
+        width: 100%!important;
+    }
+}
+
+@media screen and (max-width: 576px){
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+    #trendDiv {
+        margin-top: -10px;
+    }
+
+    .container{
+        /* padding-left: 0px;
+        padding-right: 0px; */
+        padding: 0;
+        margin-top: -5px;
+    }
+
+    .Horizontal_Line{
+        display: block;
+    }
+
+    .Apple_Img_Container > div > div{
+        max-height: 50px;
+    }
+    .Apple_Img_Container > div > div > div{
+        font-size: 20px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        line-height: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    #Left_Panel_Container{
+        /* width: 100%; */
+        display: none;
+    }
+    #Center_Panel_Container{
+        width: 100%!important;
+    }
+    #Right_Panel_Container{
+        /* width: 100%; */
+        display: none;
+    }
+    .parallax_bg{
+        left: 0%!important;
+        margin-left: 0px!important;
+        margin: 0 auto;
+    }
+    
+}
+@media screen and (max-width: 992px) {
+    .Mini_Youtube_Container{
+        margin-top: 5px;
+        
+        max-width: 500px;
+        height: 250px;
+        max-height: 250px;
+    }
+    .Apple_Topic_Container .topic img{
+        width:100%;
+    }
+    .Apple_Topic_Container .topic > div{
+        width:100%;
+    }
+    .Apple_Topic_Container .topic div{
+        padding-top: 5px;
+    }
+    
+}
+
+@media screen and (max-width: 1024px){
+    #Left_Panel_Container{
+        width: 20%;
+    }
+    #Center_Panel_Container{
+        width: 80%;
+    }
+    #Right_Panel_Container{
+        display: none;
+    }
+    .parallax_container{
+        max-width: 97%!important;
+        /* 725px */
+    }
+    .parallax_bg{
+        margin-left: -307px;
+    }
+
+}
+
+/* @media screen and (max-width: 992px){
+    .container {
+        max-width: 1140px;
+    }
+}
+@media screen and (min-width: 992px){
+    .container {
+        max-width: 1140px;
+    }
+} */
+
+
+
+
+/* --------------------------------------------------------
+Cover Panel
+-----------------------------------------------------------*/
+.modal {
+    padding-left: 50%;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-top: 5%;
+    background-color: rgba(0,0,0,0.5);
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+}
+.modal-header {
+    padding: 18px 18px;
+    background-color: #252824;
+    color: white;
+    border-bottom: 4px solid #23a8f9;
+}
+.modal-header h2 {
+    font-size: 26px;
+    margin: 12px 0;
+}
+.modal .closebtn {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    color: #23a8f9;
+}
+
+.modal-content {
+    /*position: none;*/
+    background-color: #fefefe;
+    top: 2px;
+    right: 50%;
+    width: 100%;
+    max-width: 512px;
+    margin: 0 auto;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s;
+}
+
+.modal-body {
+    padding: 16px 16px;
+    font-size: 13px;
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+    .modal-content {
+        background-color: #fefefe;
+        top: 2px;
+        right: 0;
+        width: 312px;
+        margin: 0 auto;
+        -webkit-animation-name: slideIn;
+        -webkit-animation-duration: 0.4s;
+        animation-name: slideIn;
+        animation-duration: 0.4s;
+        top: 6%;
+    }  
+    .modal {        
+        height: 100%;
+        padding-left: 0;
+    }
+}
+
+
+/* --------------------------------------------------------
+6. Announcement Bar
+-----------------------------------------------------------*/
+.noteboard{
+    float: center;
+    text-align: center;
+    color: #777;
+    /*margin: 0;*/  
+    background-color: #fbdb03;
+    /* margin-top: 40px; */
+    width: 100%;
+    padding-top: 50px;
+}
+#trendDiv li{
+    font:normal 15px/20px "微軟正黑體", Arial, Verdana, sans-serif;
+}
+.voiceEventNew:before{
+    content:"";
+}
+.voiceEventDelay:before{
+    content:"";
+}
+.voiceEventCancel:before{
+    content:"";
+}
+.voice{
+    /* height:52px;  */
+    height:45px; 
+    position:relative;
+    overflow:hidden;
+    padding:0; 
+    font-size:12px;
+    color:#5c5c5c;
+    /* top: 12px; */
+
+    padding-top: 12px;
+}
+.voice ul{ 
+    position:relative;
+}
+.voice li{
+    list-style-type:none; 
+    height:46px;
+    /* line-height:46px; */
+
+    /* vertical-align: middle;
+    
+    margin: 0 auto;
+    
+    display: table-cell; */
+}
+.voice ul#trendDiv li.voiceEventNew{
+    font-size:15px;
+}
+
+
+
+/* --------------------------------------------------------
+parallax
+-----------------------------------------------------------*/
+.parallax {
+    /* background-size: 100% auto; */
+    /* min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    margin: 0 10px;
+    cursor: pointer; */
+
+
+
+
+
+    /* min-height: 500px;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1; */
+
+
+
+    /* background-image: url(https://picsum.photos/1920/1080/?random); */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    
+
+
+}
+.mobile_ad{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1024px){
+    .parallax, .mobile_ad{
+        display:none;
+    }
+}
+
+
+
+/* ----------------------------------------------------- */
+
+
+
+
+
+
+
+
